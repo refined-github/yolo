@@ -17,7 +17,7 @@ Feature name,    Issue, Fix date
 show-whitespace, 1234,  22.3.4
 ```
 
-## styles
+## style
 
 Per-version CSS files containing style fixes. If an issue hasn't been fixed by the time the next release comes, the related style hotfix must be manually carried over to a new file.
 
