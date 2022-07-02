@@ -1,0 +1,25 @@
+name: CI
+
+on: [push]
+
+env:
+  ESBUILD: esbuild --outdir=. --log-override:css-syntax-error=error
+
+jobs:
+  strings:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npx $ESBUILD strings.json 
+
+  broken-features:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npx csval broken-features.csv
+
+  style:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npx $ESBUILD style/*
