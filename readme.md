@@ -2,7 +2,7 @@
 
 > Hotfixes for [Refined GitHub](https://github.com/refined-github/refined-github) fetched regularly
 
-In order to address severe issues as quickly as possible, Refined GitHub fetches hotfixes at most every 4 hours (while being used). These are limited to:
+In order to address severe issues as quickly as possible, Refined GitHub fetches hotfixes at most every 6 hours (while being used). These are limited to:
 
 - disabling broken features
 - adding some CSS
