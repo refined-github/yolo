@@ -1,0 +1,4 @@
+/* https://github.com/refined-github/refined-github/issues/5823 */
+.file-header.has-open-dropdown:not(.sticky-file-header) {
+	z-index: 10;
+}
