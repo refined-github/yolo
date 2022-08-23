@@ -1,4 +1,5 @@
-/* Firefox dropdown fix */
-main > run-summary {
+/* Firefox dropdown fix https://github.com/refined-github/refined-github/issues/5921 */
+:root main > run-summary {
   position: static;
 }
+  
