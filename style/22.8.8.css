@@ -1,0 +1,4 @@
+/* Firefox dropdown fix */
+main > :first-child {
+  display: static;
+}
