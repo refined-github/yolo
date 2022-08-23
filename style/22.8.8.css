@@ -1,4 +1,4 @@
 /* Firefox dropdown fix */
-main > :first-child {
-  display: static;
+main > run-summary {
+  position: static;
 }
