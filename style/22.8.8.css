@@ -3,3 +3,7 @@
   position: static;
 }
   
+/* #5914 */
+.notification-shelf ~ .application-main .file-header.sticky-file-header {
+ 	top: 60px !important;
+}
