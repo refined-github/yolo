@@ -1,0 +1,4 @@
+/* https://github.com/refined-github/refined-github/issues/5957 */
+.dropdown-menu-reactions.dropdown-menu-ne {
+	bottom: auto;
+}
