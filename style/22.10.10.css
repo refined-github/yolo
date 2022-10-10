@@ -1,0 +1,5 @@
+/* https://github.com/refined-github/refined-github/issues/6061 */
+.rgh-no-unnecessary-split-diff-view .js-diff-table:not(:has([data-split-side])) {
+	--rgh-only-deletions: table-cell !important;
+	table-layout: initial !important;
+}
