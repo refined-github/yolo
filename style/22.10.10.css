@@ -3,3 +3,8 @@
 	--rgh-only-deletions: table-cell !important;
 	table-layout: initial !important;
 }
+
+/* https://github.com/refined-github/refined-github/issues/6064 */
+.rgh-no-unnecessary-split-diff-view :is(.inline-comments, .js-inline-annotations) td:nth-child(2):not(.empty-cell) {
+	display: table-cell !important;
+}
