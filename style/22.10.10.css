@@ -20,11 +20,11 @@
 }
 
 .rgh-hide-newsfeed-noise .news :is(
-	[classes|="push"],
-	[classes|="fork"],
-	[classes|="delete"],
-	[classes|="follow"],
-	[classes|="release"]
+	[classes~="push"],
+	[classes~="fork"],
+	[classes~="delete"],
+	[classes~="follow"],
+	[classes~="release"]
 ) {
 	display: none !important;
 }
