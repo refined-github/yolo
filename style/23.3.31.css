@@ -1,0 +1,4 @@
+/* `clean-mergeability-box` https://github.com/refined-github/refined-github/issues/6467 */
+.mergeability-details .js-details-container:not(:has(.status-meta)) .h4 {
+    display: block
+}
