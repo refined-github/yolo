@@ -2,3 +2,9 @@
 .mergeability-details .js-details-container:not(:has(.status-meta)) .h4 {
     display: block
 }
+
+/* `pr-approvals-count` Safari 16.4 color bug */
+.js-issue-row .color-fg-muted [href$='#partial-pull-merging'][aria-label*='approval'] {
+    font-size: 0.6px;
+    color: transparent !important;
+}
