@@ -2,3 +2,9 @@
 .mergeability-details .js-details-container:not(:has(.status-meta)) .h4 {
     display: block
 }
+
+/* Fix merge button corners in Firefox https://github.com/refined-github/refined-github/issues/6474 */
+.BtnGroup-item:not(.BtnGroup-parent *):first-child {
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
