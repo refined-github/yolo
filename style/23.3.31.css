@@ -8,3 +8,17 @@
 	border-top-left-radius: 6px;
 	border-bottom-left-radius: 6px;
 }
+
+/* Tab-size override https://github.com/refined-github/refined-github/issues/6477 */
+[style*="tab-size: 1"] {tab-size: 1 !important;}
+[style*="tab-size: 2"] {tab-size: 2 !important;}
+[style*="tab-size: 3"] {tab-size: 3 !important;}
+[style*="tab-size: 4"] {tab-size: 4 !important;}
+[style*="tab-size: 5"] {tab-size: 5 !important;}
+[style*="tab-size: 6"] {tab-size: 6 !important;}
+[style*="tab-size: 7"] {tab-size: 7 !important;}
+[style*="tab-size: 8"] {tab-size: 8 !important;}
+[style*="tab-size: 9"] {tab-size: 9 !important;}
+[style*="tab-size: 10"] {tab-size: 10 !important;}
+[style*="tab-size: 11"] {tab-size: 11 !important;}
+[style*="tab-size: 12"] {tab-size: 12 !important;}
