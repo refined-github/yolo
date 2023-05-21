@@ -1,7 +1,7 @@
 Feature name, Issue describing bug, Minimum working version
 quick-review-comment-deletion,6065,23.5.2
 sync-pr-commit-title,6109,22.10.25
-clean-conversation-sidebar,6116,
+clean-conversation-sidebar,6116,23.5.10
 clean-dashboard,6188,22.12.15
 hide-own-stars,6192,22.12.15
 hide-newsfeed-noise,6194,22.12.15
