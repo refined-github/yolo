@@ -9,3 +9,9 @@
  .rgh-sticky-sidebar-enabled [id^='my-forks-menu'] {
  	z-index: initial !important; /* This affects the social buttons. It seems to have no effect but it constantly causes trouble with other features. */
  }
+
+ /* https://github.com/refined-github/refined-github/pull/6779 */
+ .rgh-no-navigation-highlight .notifications-list-item:hover {
+ 	background: none !important;
+ 	box-shadow: none !important;
+ }
