@@ -1,0 +1,6 @@
+/* https://github.com/refined-github/refined-github/pull/6783 */
+.js-check-all-container .js-bulk-action-toasts ~ div .Box-header {
+ 	flex-wrap: wrap;
+ 	height: auto !important; /* Unset the default height to allow wrapping */
+ 	min-height: 52px; /* Re-set the default height as a minimum height */
+ }
