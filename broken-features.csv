@@ -1,14 +1,9 @@
 Feature name, Issue describing bug, Minimum working version
 quick-review-comment-deletion,6065,23.5.2
-sync-pr-commit-title,6109,22.10.25
 clean-conversation-sidebar,6116,23.5.10
-clean-dashboard,6188,22.12.15
-hide-own-stars,6192,22.12.15
-hide-newsfeed-noise,6194,22.12.15
 fork-source-link-same-view,6302,
 quick-comment-hiding,6350,23.8.17
 one-click-diff-options,6364,23.2.20
-file-age-color,6366,23.3.30
 tags-dropdown,6257,23.4.13
 one-click-review-submission,6633,23.5.9
 repo-avatars,6790,23.7.28
