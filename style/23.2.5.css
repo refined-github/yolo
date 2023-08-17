@@ -1,6 +1,0 @@
-/* https://github.com/refined-github/refined-github/issues/6305 */
-.rgh-hide-newsfeed-noise .body:has(
-  [data-hydro-click*='"type":"FollowEvent"']
-) {
-	display: none !important;
-}

@@ -1,9 +1,0 @@
-/* Firefox dropdown fix https://github.com/refined-github/refined-github/issues/5921 */
-:root main > run-summary {
-  position: static;
-}
-  
-/* #5914 */
-.notification-shelf ~ .application-main .file-header.sticky-file-header {
- 	top: 60px !important;
-}
