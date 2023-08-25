@@ -1,0 +1,6 @@
+/* Broken feature in Firefox https://github.com/refined-github/refined-github/issues/6834 */
+@-moz-document url-prefix() {
+  .rgh-sticky-sidebar {
+  	position: static !important;
+  }
+}
