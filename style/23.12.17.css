@@ -1,0 +1,4 @@
+/* Restore `table-input` https://github.com/refined-github/refined-github/issues/7203 */
+[data-targets="action-bar.items"] + .hx_rsm {
+    float: left;
+}
