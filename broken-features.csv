@@ -1,17 +1,6 @@
 Feature name, Issue describing bug, Minimum working version
-quick-review-comment-deletion,6065,23.5.2
-clean-conversation-sidebar,6116,23.5.10
 fork-source-link-same-view,6302,
-quick-comment-hiding,6350,23.8.17
-one-click-diff-options,6364,23.2.20
-tags-dropdown,6257,23.4.13
-one-click-review-submission,6633,23.5.9
-repo-avatars,6790,23.7.28
 wait-for-checks,6914,
-unreleased-commits,6922,23.9.19
 clean-repo-header,6940,
-one-click-review-submission,6963,23.10.5
-small-user-avatars,7137,23.12.6
 locked-issue,7116,24.3.25
-table-input,7203,23.12.1
 quick-comment-edit,7116,24.3.25
