@@ -13,3 +13,13 @@
 .BtnGroup:has(>[aria-label*="unreleased commit"]) {
 	flex-shrink: 0;
 }
+
+/* https://github.com/refined-github/refined-github/pull/7313 */
+@media (-webkit-min-device-pixel-ratio: 2) {
+	[rgh-emphasize-draft-pr-label] .js-issue-row :is(
+	[aria-label='Open draft pull request'],
+	[aria-label='Draft Pull Request']
+) svg {
+		stroke: var(--fgColor-muted, var(--color-fg-muted));
+	}
+}
