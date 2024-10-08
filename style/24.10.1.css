@@ -16,3 +16,10 @@ button.rgh-highlight-non-default-branch svg,
 details.rgh-highlight-non-default-branch > summary svg {
 	color: var(--fgColor-accent, var(--color-accent-fg, fuchsia)) !important;
 }
+
+/* Backported fix: Sponsor button in mobile view #7853 */
+#dialog-show-responsive-sponsor-modal {
+	width: var(--base-size-32);
+	height: var(--base-size-32);
+	padding: 0;
+}
