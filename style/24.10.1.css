@@ -23,3 +23,8 @@ details.rgh-highlight-non-default-branch > summary svg {
 	height: var(--base-size-32);
 	padding: 0;
 }
+
+/* Backported fix: Notification buttons overlap on mobile */
+#dialog-show-notifications-tabs-nav ~ action-menu {
+	flex-shrink: 0;
+}
