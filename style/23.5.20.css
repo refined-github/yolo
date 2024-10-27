@@ -1,4 +1,0 @@
-/* `conversation-activity-filter` https://github.com/refined-github/refined-github/issues/6437#issuecomment-1540526012 */
-#rgh-conversation-activity-filter-select-menu:not(.js-issues-results details){
-	display: none !important;
-}
