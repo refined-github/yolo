@@ -1,5 +1,0 @@
-/* https://github.com/refined-github/refined-github/issues/7020 */
-[for="pull_request_body"] + .flash.mx-2.p-2{
-	margin-bottom: 10px;
-	margin-inline: 0 !important;
-}
