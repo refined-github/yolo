@@ -2,3 +2,4 @@ Feature name, Issue describing bug, Minimum working version
 table-input,7353,24.10.22
 toggle-files-button,7737,24.8.25
 linkify-code,7951,24.10.27
+submission-via-ctrl-enter-everywhere,8049,
