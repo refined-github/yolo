@@ -1,0 +1,4 @@
+/* `mobile-tabs` - Further tighten spacing https://github.com/refined-github/refined-github/pull/8070 */
+#partial-discussion-header + .tabnav .tabnav-tab .Counter {
+  min-width: 0;
+}
