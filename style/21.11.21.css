@@ -1,0 +1,48 @@
+/* GHE lack of colors https://github.com/refined-github/refined-github/issues/8091#issuecomment-2494831593 */
+/* GHE lack of colors https://github.com/refined-github/refined-github/issues/8091#issuecomment-2494831593 */
+
+.rgh-extend-diff-expander
+  .js-expandable-line:hover
+  :is(
+    .blob-num:not(:hover) .directional-expander:first-child,
+    .blob-num:not(:hover) + .blob-code
+  ) {
+  color: var(
+    --control-checked-fgColor-rest,
+    var(--color-state-hover-primary-text, var(--color-fg-on-emphasis, fuchsia))
+  );
+  cursor: pointer;
+  background: var(
+    --control-checked-bgColor-hover,
+    var(--color-state-hover-primary-bg, var(--color-accent-emphasis, fuchsia))
+  );
+  border-color: var(
+    --control-checked-borderColor-hover,
+    var(
+      --color-state-hover-primary-border,
+      var(--color-accent-emphasis, fuchsia)
+    )
+  );
+}
+
+:root .rgh-non-default-branch {
+  background-color: var(
+    --control-checked-bgColor-hover,
+    var(--color-state-hover-primary-bg, var(--color-accent-emphasis, fuchsia))
+  );
+}
+
+:root .rgh-non-default-branch,
+:root .rgh-non-default-branch a {
+  color: var(
+    --control-checked-fgColor-rest,
+    var(--color-state-hover-primary-text, var(--color-fg-on-emphasis, fuchsia))
+  );
+}
+
+.thread-subscribe-form .btn.selected {
+  border-color: var(
+    --control-borderColor-emphasis,
+    var(--color-accent-emphasis, fuchsia)
+  );
+}
