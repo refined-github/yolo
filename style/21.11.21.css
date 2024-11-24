@@ -1,5 +1,4 @@
 /* GHE lack of colors https://github.com/refined-github/refined-github/issues/8091#issuecomment-2494831593 */
-/* GHE lack of colors https://github.com/refined-github/refined-github/issues/8091#issuecomment-2494831593 */
 
 .rgh-extend-diff-expander
   .js-expandable-line:hover
@@ -45,4 +44,11 @@
     --control-borderColor-emphasis,
     var(--color-accent-emphasis, fuchsia)
   );
+}
+
+/* `scrollable-areas` - Remove from unrelated markdown documents */
+/* Reverts https://github.com/refined-github/refined-github/pull/8089 */
+/* Fixes https://github.com/refined-github/refined-github/issues/8099 */
+html[rgh-scrollable-areas] .markdown-body :is(blockquote, pre) {
+	max-height: none;
 }
