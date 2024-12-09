@@ -8,6 +8,8 @@ In order to address severe issues as quickly as possible, Refined GitHub fetches
 - adding some CSS
 - updating selectors and other strings (currently unused)
 
+The files are loaded under the address: https://refined-github.github.io/yolo/
+
 ## broken-features.csv
 
 List of features to disable until _the current version_ is greater than or equal to the "fix date"
