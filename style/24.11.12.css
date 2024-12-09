@@ -2,3 +2,8 @@
 #partial-discussion-header + .tabnav .tabnav-tab .Counter {
   min-width: 0;
 }
+
+/* `clean-conversation-headers` - "fixed by" link dropped https://github.com/refined-github/refined-github/issues/8101 */
+.rgh-clean-conversation-headers.rgh-hide-author a[data-hovercard-url]:not(.author) {
+	display: inline !important;
+}
