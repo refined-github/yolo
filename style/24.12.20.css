@@ -1,0 +1,11 @@
+/* https://github.com/refined-github/refined-github/pull/8208 */
+@media (width >= 768px) {
+ 	/* Pulls the alert container to the right when empty */
+ 	.gap-4.pl-3:not(:has(a.h6)):has(
+ 			> .d-md-block
+ 				> .js-socket-channel[data-url^='/notifications/beta/recent_notifications_alert']
+ 		) {
+ 		/* Substract 16px spacing from both .gap-3 and .ml-3 */
+ 		margin-right: -32px;
+ 	}
+ }
