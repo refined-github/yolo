@@ -9,3 +9,9 @@
  		margin-right: -32px;
  	}
  }
+
+
+/* https://github.com/refined-github/refined-github/issues/8257 */
+body.copilotImmersive>div:first-of-type>.application-main>main>react-app>div {
+	height: calc(100vh - 64px);
+}
