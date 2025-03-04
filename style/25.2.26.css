@@ -1,0 +1,5 @@
+
+.rgh-mention-avatar::before {
+	width: 16px !important;
+	margin-inline: .2em;
+}
