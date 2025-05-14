@@ -3,3 +3,9 @@
 	width: 16px !important;
 	margin-inline: .2em;
 }
+
+
+/* z-index fight https://github.com/refined-github/refined-github/issues/8445 */
+.rgh-sticky-sidebar {
+	z-index: unset !important;
+}
