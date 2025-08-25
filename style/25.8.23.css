@@ -1,0 +1,4 @@
+/* Hide broken `unread-anywhere` on gists https://github.com/refined-github/refined-github/issues/8641 */
+.Header-item [aria-label="Open unread notifications"] {
+    display: none;
+}
