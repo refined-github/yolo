@@ -1,0 +1,4 @@
+/* https://github.com/refined-github/refined-github/issues/8662 */
+:nth-child(2) > .rgh-default-branch-button-group .rgh-default-branch-button {
+  display: none;
+}
