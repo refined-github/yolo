@@ -1,0 +1,4 @@
+/* https://github.com/refined-github/refined-github/issues/9038 */
+[data-testid='mergebox-partial'] input[type='checkbox'] {
+  width: auto !important;
+}
