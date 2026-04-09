@@ -1,0 +1,9 @@
+/* `clean-repo-tabs` https://github.com/refined-github/refined-github/issues/8867 */
+li:has(
+	> :is(
+		[data-tab-item="security-and-quality"],
+		[data-tab-item="insights"]
+	):not([aria-current="page"])
+) {
+  display: none;
+}
