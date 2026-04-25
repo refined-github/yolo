@@ -1,0 +1,4 @@
+/* https://github.com/refined-github/refined-github/pull/9277 */
+[class*="ActionBar-Nav"]:has(.rgh-table-input) {
+	overflow: visible;
+}
