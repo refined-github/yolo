@@ -1,0 +1,4 @@
+/* https://github.com/refined-github/refined-github/issues/9335 */
+.markdown-body p > a > img {
+	margin-block: 0;
+}
