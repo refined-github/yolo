@@ -1,0 +1,21 @@
+/* https://github.com/refined-github/refined-github/issues/9432 */
+[data-rgh-conversation-activity-filter='hideEventsBotsCollapsedComments'] {
+	.rgh-conversation-activity-filtered-event,
+	.rgh-conversation-activity-bot-comment,
+	.rgh-conversation-activity-collapsed-comment,
+	.js-resolvable-timeline-thread-container[data-resolved='true'],
+	.minimized-comment {
+		display: none;
+	}
+}
+
+.rgh-conversation-activity-filter-menu:is(
+	[data-rgh-conversation-activity-filter='hideEventsBotsCollapsedComments'] *
+) {
+	.octicon-eye {
+		display: none;
+	}
+	.octicon-eye-closed {
+		display: inline-block;
+	}
+}
