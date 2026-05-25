@@ -1,0 +1,7 @@
+span[data-testid='sponsor-label'] {
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+	&::before {
+		margin-top: 0.25em;
+	}
+}
