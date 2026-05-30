@@ -5,3 +5,24 @@ span[data-testid='sponsor-label'] {
 		margin-top: 0.25em;
 	}
 }
+
+/* Upstream the `notifications-ui` improvements */
+/* https://github.com/refined-github/refined-github/pull/9635 */
+@media screen and not (min-width: 768px) {
+  /* Allow the filters/sort/search to be ordered */
+  .js-check-all-container > .d-md-none:first-child {
+    display: flex !important;
+    flex-wrap: wrap;
+    column-gap: 12px;
+
+    /* Scale back "All | Unread" selector so it doesn't take the full width */
+    & > .BtnGroup:first-child {
+      width: auto;
+    }
+  }
+
+  /* Move search box to the bottom */
+  .notifications-query-builder-wrapper {
+    order: 10;
+  }
+}
