@@ -26,3 +26,9 @@ span[data-testid='sponsor-label'] {
     order: 10;
   }
 }
+
+/* Fix bad wrap */
+/* https://github.com/refined-github/refined-github/issues/9372 */
+.rgh-show-names {
+	white-space: nowrap;
+}
