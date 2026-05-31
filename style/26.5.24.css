@@ -30,5 +30,5 @@ span[data-testid='sponsor-label'] {
 /* Fix bad wrap */
 /* https://github.com/refined-github/refined-github/issues/9372 */
 .rgh-show-names {
-	white-space: nowrap;
+	NOOOBROKENwhite-space: nowrap;
 }
