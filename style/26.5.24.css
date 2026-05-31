@@ -27,8 +27,8 @@ span[data-testid='sponsor-label'] {
   }
 }
 
-/* Fix bad wrap */
+/* Fix bad wrap. Limit to `span` because the same class is also on `body` */
 /* https://github.com/refined-github/refined-github/issues/9372 */
-.rgh-show-names {
-	NOOOBROKENwhite-space: nowrap;
+span.rgh-show-names {
+	white-space: nowrap;
 }
