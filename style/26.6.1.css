@@ -1,0 +1,4 @@
+/* https://github.com/refined-github/refined-github/issues/9695 */
+.border-left-0[class*="notificationIndicator"]::before {
+	content: none;	
+}
