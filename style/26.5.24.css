@@ -37,3 +37,8 @@ span.rgh-show-names {
 .border-left-0[class*="notificationIndicator"]::before {
 	content: none;	
 }
+
+/* https://github.com/refined-github/refined-github/issues/9769 */
+.rgh-release-download-count span[aria-label*="download"] {
+	display: none !important;
+}
