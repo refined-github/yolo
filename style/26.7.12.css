@@ -1,6 +1,5 @@
-
 /* https://github.com/refined-github/refined-github/issues/9761 */
-.js-check-all-container .js-bulk-action-toasts ~ div .Box-header {
+:root .js-check-all-container .js-bulk-action-toasts ~ div .Box-header {
     height: auto !important;
     min-height: 52px;
     overflow: unset;
