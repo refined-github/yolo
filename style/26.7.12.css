@@ -7,3 +7,8 @@
     flex-wrap: wrap;
     row-gap: 7px;
 }
+
+/* https://github.com/refined-github/refined-github/issues/9866 */
+:root .js-notifications-container .Box:has(.js-notifications-mark-all-prompt) .Box-header {
+    top: 0;
+}
