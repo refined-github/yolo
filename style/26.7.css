@@ -25,3 +25,47 @@
 	flex-wrap: wrap;
 	max-width: 100%;
 }
+
+html:not([rgh-OFF-notifications-ui]) {
+  --gap: 8px;
+
+  @media screen and not (min-width: 768px) {
+    .js-notifications-container > h1.sr-only + .d-md-none {
+      gap: var(--gap);
+    }
+  }
+
+  @media screen and not (min-width: 1012px) {
+    .manage-notifications-responsive + .d-flex {
+      flex-grow: 1;
+    }
+
+    .notification-recent-alerts:not(:has(a)) {
+      display: none !important;
+    }
+
+    .js-check-all-container > .flex-lg-row {
+      flex-direction: row !important;
+      flex-wrap: wrap;
+      column-gap: var(--gap);
+    }
+
+    [aria-label='Customize filters'] {
+      margin: 0 !important;
+    }
+
+    .notification-sort-by {
+      margin-left: auto;
+    }
+
+    .notifications-query-builder-wrapper:not(:first-child) {
+      order: 9;
+    }
+
+    .notifications-query-builder-wrapper:first-child {
+      width: auto !important;
+      flex-grow: 1;
+    }
+  }
+}
+
