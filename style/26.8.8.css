@@ -1,0 +1,13 @@
+/* https://github.com/refined-github/refined-github/issues/9955 */
+[class*="MarkdownEditor-module__container"] {
+    animation: 
+      rgh-prevent-link-loss-bugfix 500ms 100ms,
+      rgh-prevent-link-loss-bugfix 1s 100ms,
+      rgh-prevent-link-loss-bugfix 5s 100ms,
+      rgh-prevent-link-loss-bugfix 10s 100ms;
+}
+@keyframes rgh-prevent-link-loss-bugfix {
+    50% {
+        display: block
+    }
+}
