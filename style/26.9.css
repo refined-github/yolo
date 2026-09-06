@@ -1,16 +1,1 @@
-/* https://github.com/refined-github/refined-github/issues/10026 */
-.UnderlineNav-item [data-content="Pulls"] { 
- 	line-height: 1; 
- 	font-size: 0.6px; 
- 	color: transparent !important; 
-  
- 	&::before { 
-		height: auto;
- 		content: "PRs"; 
- 		visibility: inherit; 
- 		color: var(--fgColor-default); 
- 		font-weight: normal; 
-		visibility: visible;
-		font-size: var(--text-body-size-medium);
- 	} 
- }
+
