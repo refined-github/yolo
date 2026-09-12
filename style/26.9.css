@@ -1,1 +1,4 @@
-
+/* https://github.com/refined-github/refined-github/issues/10064 */
+#repo-pulls-dashboard-filter-input {
+  font-family: inherit !important;
+}
