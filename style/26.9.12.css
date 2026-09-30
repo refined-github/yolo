@@ -29,3 +29,8 @@
 		text-decoration: underline !important;
 	}
 }
+
+/* https://github.com/refined-github/refined-github/pull/10151 */
+:root .js-notifications-group [id^="notification"] {
+	display: block !important;
+}
