@@ -31,6 +31,9 @@
 }
 
 /* https://github.com/refined-github/refined-github/pull/10151 */
-:root .js-notifications-group [id^="notification"] {
-	display: block !important;
+/* https://github.com/refined-github/refined-github/issues/10160 */
+@media (max-width: 1000px) {
+	:root .js-notifications-group [id^="notification"] {
+		display: block !important;
+	}
 }
