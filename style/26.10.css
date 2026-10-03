@@ -6,3 +6,35 @@ div[data-visibility-visible][class*="SidePanel-module__Overlay"]:has([class*="Re
 [class*='IssueViewer-module__issueViewerContainer'] div[data-visibility-visible]:has(>ul>li[class*="ReactionsMenuItem-module"]){
 	position-try-fallbacks: none;
 }
+
+/* https://github.com/refined-github/refined-github/issues/10159 */
+html:not([rgh-OFF-align-issue-labels]) {
+	div[data-testid="issues-list-surface"] li[class*='ListItem-module__listItem']:not([class*='compact']) {
+		div[class^='Title-module__container'] {
+			display: contents;
+
+			> [class*='heading'] {
+				grid-area: primary;
+				padding-top: 8px;
+			}
+
+			> span[class*='trailingBadgesSpacer'] {
+				display: none;
+			}
+
+			> span[class*='trailingBadgesContainer'] {
+				grid-area: -1 / main-content;
+				padding-bottom: 10px;
+
+				&:empty {
+					/* Grid gap adds additional 4px */
+					padding-bottom: 6px;
+				}
+			}
+		}
+
+		div[class^='MainContent-module__inner'] {
+			padding-bottom: 0;
+		}
+	}
+}
