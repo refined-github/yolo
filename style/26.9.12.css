@@ -37,3 +37,12 @@
 		display: block !important;
 	}
 }
+
+/* https://github.com/refined-github/refined-github/issues/10162 */
+div[data-visibility-visible][class*="SidePanel-module__Overlay"]:has([class*="ReactionsMenuItem-module"]){
+	translate: unset !important;
+}
+
+[class*='IssueViewer-module__issueViewerContainer'] div[data-visibility-visible]:has(>ul>li[class*="ReactionsMenuItem-module"]){
+	position-try-fallbacks: none;
+}
